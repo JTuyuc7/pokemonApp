@@ -13,4 +13,11 @@ Using https://pokeapi.co/ to create a small app where you can find pokemons.
 #Individual Pokemon
 ![PokemonUnit](https://user-images.githubusercontent.com/50525507/163654685-b2cd0027-8b62-4f26-87fc-a4d82337fc7d.png)
 
-#Base version 0.0.0
+#Search Screen
+![busqueda](https://user-images.githubusercontent.com/50525507/163698661-cbfd767b-4296-427c-ba3e-ada94802e8ed.png)
+
+#Search Screen
+![busqueda2](https://user-images.githubusercontent.com/50525507/163698681-be4fc75e-dc40-4a95-b86b-8fd621ecf0b7.png)
+
+
+#Base version 0.0.1
