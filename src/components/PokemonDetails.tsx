@@ -103,7 +103,7 @@ const PokemonDetails = ( {pokemon}: Props ) => {
                     </View>
                 </View>
                 <View
-                    style={{...styles.container, marginBottom: 30}}
+                    style={{...styles.container, marginBottom: 60}}
                 >
                     <Text style={{...styles.title}}>Stats</Text>
                     <View
@@ -113,7 +113,7 @@ const PokemonDetails = ( {pokemon}: Props ) => {
                             pokemon.stats.map( (stat, idx ) => (
                                 <View
                                     key={stat.stat.name + idx}
-                                    style={{ flexDirection: 'row'}}
+                                    style={{ flexDirection: 'row',}}
                                 >
                                     <Text
                                         style={{...styles.regularText, marginRight: 10, width: 150}}
