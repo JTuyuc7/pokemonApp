@@ -17,19 +17,17 @@ const Navigation = () => {
 
     return(
         <>
-            <NavigationContainer>
-                <Stack.Navigator
-                    screenOptions={{
-                        headerShown: false,
-                        cardStyle: {
-                            backgroundColor: 'white'
-                        }
-                    }}
-                >
-                    <Stack.Screen name="Home" component={Home} />
-                    <Stack.Screen name='PokemonScreen' component={PokemonScreen} />
-                </Stack.Navigator>
-            </NavigationContainer>
+            <Stack.Navigator
+                screenOptions={{
+                    headerShown: false,
+                    cardStyle: {
+                        backgroundColor: 'white'
+                    }
+                }}
+            >
+                <Stack.Screen name="Home" component={Home} />
+                <Stack.Screen name='PokemonScreen' component={PokemonScreen} />
+            </Stack.Navigator>
         </>
     )
 }
